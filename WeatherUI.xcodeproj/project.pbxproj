@@ -3,12 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		78A5B79C2BD9A70F00010674 /* WeatherUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A5B79B2BD9A70F00010674 /* WeatherUIApp.swift */; };
-		78A5B79E2BD9A70F00010674 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A5B79D2BD9A70F00010674 /* ContentView.swift */; };
 		78A5B7A02BD9A71000010674 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78A5B79F2BD9A71000010674 /* Assets.xcassets */; };
 		78A5B7A32BD9A71000010674 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78A5B7A22BD9A71000010674 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,10 +15,13 @@
 /* Begin PBXFileReference section */
 		78A5B7982BD9A70F00010674 /* WeatherUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78A5B79B2BD9A70F00010674 /* WeatherUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherUIApp.swift; sourceTree = "<group>"; };
-		78A5B79D2BD9A70F00010674 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		78A5B79F2BD9A71000010674 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78A5B7A22BD9A71000010674 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		78AB5CC52D439FA3000329E9 /* Views */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Views; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		78A5B7952BD9A70F00010674 /* Frameworks */ = {
@@ -51,8 +53,8 @@
 		78A5B79A2BD9A70F00010674 /* WeatherUI */ = {
 			isa = PBXGroup;
 			children = (
+				78AB5CC52D439FA3000329E9 /* Views */,
 				78A5B79B2BD9A70F00010674 /* WeatherUIApp.swift */,
-				78A5B79D2BD9A70F00010674 /* ContentView.swift */,
 				78A5B79F2BD9A71000010674 /* Assets.xcassets */,
 				78A5B7A12BD9A71000010674 /* Preview Content */,
 			);
@@ -81,6 +83,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				78AB5CC52D439FA3000329E9 /* Views */,
 			);
 			name = WeatherUI;
 			productName = WeatherUI;
@@ -137,7 +142,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78A5B79E2BD9A70F00010674 /* ContentView.swift in Sources */,
 				78A5B79C2BD9A70F00010674 /* WeatherUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
